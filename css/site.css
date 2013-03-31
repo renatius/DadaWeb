@@ -1,0 +1,150 @@
+html {
+color: #333; 
+background-color: #aaa;	
+}
+
+body { 
+	margin: 2em;
+	color: #333; 
+	background-color: #aaa;
+	/* font-family: Ubuntu,corbel,optima,"Lucida Grande",Arial,Verdana,sans-serif; */
+	font-family: Georgia, serif;
+	font-size: 11.4pt;
+}
+
+#page {
+	width: 760px;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	color: #333;
+	background-color: white;
+	border: 1px solid #aaa;
+}
+
+#page header {
+	padding: 1em;
+	margin: 0 0 25px 0;
+	color: #2779aa;
+	background-color: white;
+	text-transform: uppercase;
+	background-image: url(../img/testata.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 130px;
+}
+
+#page header h1 {
+	font-family: "Trebuchet MS","Arial Narrow",Arial,sans-serif;
+	font-size: 25px;
+	margin: 110px 0 0 0;
+}
+
+#page header h2 {
+	font-family: "Trebuchet MS","Arial Narrow",Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.3em;
+}
+
+footer {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #fff;
+	background-color: #0163a0;
+	margin: 1em 0 0 0;
+	padding: .75em;
+}
+
+footer a {
+color: #fff;
+background-color: #0163a0;
+text-decoration: underline;	
+}
+
+#bio {
+	overflow: auto;
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+#portrait-panel {
+	float: left;
+	margin-right: 15px;
+	width: 190px;
+}
+
+#bio-panel {
+	float:left;
+	width: 530px;
+}
+
+#bio h4 {
+	border: 0;
+}
+
+ul.tabs {
+	font-family: Ubuntu,corbel,optima,"Lucida Grande",Arial,Verdana,sans-serif;
+}
+
+html.no-js ul.tabs {
+	margin: 0 20px;
+}
+
+html.no-js div.panes section > h3 {
+	margin: 1em 20px 1em 20px;
+	font-weight: bold;
+}
+
+html.no-js div.panes p {
+	line-height: 1.25em;
+	margin: 0 20px 1em 20px;
+}
+
+div.panes p {
+	line-height: 1.25em;
+	margin-bottom: 1em;	
+	text-align: justify;
+	padding: 0 1em 0 1em;
+}
+
+div.panes h4 {
+	color: #111;
+	background-color: white;
+	font-weight: bold;
+	border-bottom: 1px solid #aaaaaa;
+	margin:1em;
+}
+
+div.panes li {
+	margin: 0 1em 1em 1em;
+}
+
+#bio ul {
+	list-style: disc;
+	margin-left: 1em;
+}
+
+#courses h4 {
+	border: 0;
+}
+
+#courses ul {
+	list-style: disc;
+	margin-left: 2em;
+}
+
+.vcard {
+	margin: 1em 0 1em 0;
+	padding-left: 2em;
+	line-height: 1.25em;
+}
+
+.vcard a.url {
+	color: #111;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+div.download_info h4 {
+	text-decoration: none;
+	border:0;
+}
